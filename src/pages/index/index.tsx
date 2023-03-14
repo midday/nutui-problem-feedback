@@ -1,10 +1,10 @@
 import { View } from "@tarojs/components";
-import { SearchBar } from "@nutui/nutui-react-taro";
+import { Calendar } from "@nutui/nutui-react-taro";
 
 const DemoIndex = () => {
   return (
     <View>
-      <SearchBar placeholder="上京东，购好物" />
+      <Calendar poppable={false} startDate="2023-01-01" endDate="2025-01-30" />
     </View>
   );
 };
