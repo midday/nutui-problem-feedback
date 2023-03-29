@@ -1342,10 +1342,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nutui/nutui-react-taro@^1.4.11":
-  version "1.4.11"
-  resolved "https://registry.npmmirror.com/@nutui/nutui-react-taro/-/nutui-react-taro-1.4.11.tgz#93b3b822c1a373df6823acc734479629769564d3"
-  integrity sha512-mLKqVD+7bVdipfH/MA6Bsa0PtLmlaHtvbrq5M4qjJZlvrxxBtNk4Y51VDNdFNrN+TjLfXAUQp7jjXAGVRIELeg==
+"@nutui/nutui-react-taro@^1.4.12":
+  version "1.4.12"
+  resolved "https://registry.npmmirror.com/@nutui/nutui-react-taro/-/nutui-react-taro-1.4.12.tgz#6003891f6a579cdcfd577a75ac87a2704c435d86"
+  integrity sha512-hAH7XlUXfwFWcDZV0tGH5+WLjsaIb7H+ZhDVxMndDXKfpKyPltAtxNTCnuswjoiEc5J+xZV4zvi45t9MYWz/Lw==
   dependencies:
     "@babel/runtime" "^7.16.5"
     "@bem-react/classname" "^1.5.10"
