@@ -1,10 +1,19 @@
 import { View } from "@tarojs/components";
-import { SearchBar } from "@nutui/nutui-react-taro";
+import { Grid, GridItem } from "@nutui/nutui-react-taro";
 
 const DemoIndex = () => {
   return (
     <View>
-      <SearchBar placeholder="上京东，购好物" />
+      <Grid columnNum={3} square>
+        <GridItem className="custom-grid-item" icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+        <GridItem icon="dongdong" text="文字" />
+      </Grid>
     </View>
   );
 };
